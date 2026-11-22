@@ -72,12 +72,12 @@
     {
       "merchant": "Amazon",
       "category": "Shopping",
-      "first": "Amazon Pay ICICI",
+      "first": "Amazon Pay ICICI (Prime: 5%; non-Prime: 3%)",
       "alternatives": [
         "SBI Cashback",
         "HDFC Millennia"
       ],
-      "reason": "Compare Prime/non-Prime Amazon cashback with eligible online cashback and remaining caps."
+      "reason": "Compare Amazon Pay balance rewards with eligible online cashback and remaining cycle caps. ICICI reward is unlimited for eligible spend."
     },
     {
       "merchant": "Flipkart",
@@ -86,7 +86,7 @@
       "alternatives": [
         "HDFC Millennia"
       ],
-      "reason": "Compare eligible online cashback against Millennia's accelerated merchant list and remaining cap."
+      "reason": "SBI Cashback earns 5% on eligible online spend; Millennia earns 5% on Flipkart up to 1,000 CashPoints per cycle."
     },
     {
       "merchant": "Swiggy",
@@ -94,28 +94,30 @@
       "first": "HDFC Swiggy",
       "alternatives": [
         "Axis My Zone",
+        "Axis Privilege Amex",
         "HDFC Millennia"
       ],
-      "reason": "Check current Swiggy-card cashback, billing-cycle cap and any targeted instant discount."
+      "reason": "HDFC Swiggy earns 10% on eligible app spend up to ₹1,500 per billing cycle. Compare Axis My Zone flat ₹120 and limited Saturday Amex ₹150 offer."
     },
     {
       "merchant": "Zomato",
       "category": "Food",
-      "first": "Axis Neo RuPay",
+      "first": "Axis Privilege Amex on eligible Saturdays",
       "alternatives": [
-        "HDFC Swiggy",
-        "HDFC Millennia"
+        "HDFC Millennia",
+        "Axis Neo RuPay"
       ],
-      "reason": "Check active Axis Neo coupon eligibility against regular cashback alternatives."
+      "reason": "Axis Privilege Amex offers ₹150 off on spend above ₹600 on Saturdays through 30 Dec 2026; otherwise compare Millennia 5% (up to 1,000 points/cycle) and Neo flat ₹120 twice monthly."
     },
     {
       "merchant": "Blinkit",
       "category": "Shopping",
-      "first": "HDFC Swiggy",
+      "first": "Axis Privilege Amex on eligible Saturdays",
       "alternatives": [
-        "Axis Privilege Amex"
+        "Axis Neo RuPay",
+        "HDFC Swiggy"
       ],
-      "reason": "Check eligible online-spend cashback and any targeted bank promotion."
+      "reason": "Axis Privilege Amex offers ₹150 off on transactions above ₹1,500 on Saturdays through 30 Dec 2026; otherwise check Neo's 10% offer and HDFC eligible online cashback."
     },
     {
       "merchant": "BookMyShow",
@@ -126,7 +128,7 @@
         "Axis Neo RuPay",
         "HDFC Millennia"
       ],
-      "reason": "Check monthly spend milestones, ticket caps and active District/BookMyShow offers."
+      "reason": "RBL Play unlocks up to ₹500 after ₹5,000 eligible billing-month spend; compare My Zone District BOGO (₹25,000 previous 3-month spend condition) and Neo 10%."
     },
     {
       "merchant": "UPI QR payments",
@@ -136,23 +138,26 @@
         "SBI PhonePe SELECT BLACK",
         "Axis Neo RuPay"
       ],
-      "reason": "Check eligible scan-and-pay transaction type, Kiwi milestone status and card reward caps."
+      "reason": "Kiwi Neon earns 2% on eligible scan-and-pay; milestone rewards are additional but membership and credit-limit caps apply."
     },
     {
-      "merchant": "PhonePe",
+      "merchant": "PhonePe app payments",
       "category": "UPI",
       "first": "SBI PhonePe SELECT BLACK",
       "alternatives": [
         "YES Bank Kiwi NEON"
       ],
-      "reason": "Check PhonePe SELECT BLACK category eligibility and revised reward caps."
+      "reason": "10 Reward Points per ₹100 on eligible PhonePe spends, with ₹1 value per point. Check detailed transaction exclusions."
     },
     {
       "merchant": "HPCL fuel",
       "category": "Fuel",
       "first": "BOB HPCL RuPay",
-      "alternatives": [],
-      "reason": "Check HPCL outlet eligibility, fuel reward cap, surcharge waiver and RuPay variant terms."
+      "alternatives": [
+        "SBI PhonePe SELECT BLACK",
+        "ICICI Amazon Pay"
+      ],
+      "reason": "BOB HPCL Energie offers up to 5% at eligible HPCL transactions, subject to accelerated point and surcharge caps. RuPay UPI payments earn only core points."
     },
     {
       "merchant": "Other online shopping",
@@ -160,9 +165,9 @@
       "first": "SBI Cashback",
       "alternatives": [
         "HDFC Millennia",
-        "SBI PhonePe SELECT BLACK"
+        "HDFC Swiggy"
       ],
-      "reason": "Check exclusions, online cashback cap and whether the merchant is on Millennia's accelerated list."
+      "reason": "SBI Cashback's 5% online rate is subject to ₹2,000 online cap per statement cycle and exclusions."
     },
     {
       "merchant": "Other offline purchases",
@@ -171,20 +176,328 @@
       "alternatives": [
         "SBI PhonePe SELECT BLACK"
       ],
-      "reason": "Compare eligible offline cashback and reward earn rates after exclusions."
+      "reason": "SBI Cashback earns 1% on eligible offline POS spend up to ₹2,000 cashback per statement cycle."
     },
     {
       "merchant": "Flights & hotels",
       "category": "Travel",
-      "first": "Compare current bank offers",
+      "first": "Compare Axis My Zone Cleartrip offer first",
       "alternatives": [
-        "Axis My Zone",
-        "Axis Privilege Amex",
-        "SBI PhonePe SELECT BLACK"
+        "HDFC Swiggy Cleartrip",
+        "ICICI Amazon Pay on Amazon Pay travel"
       ],
-      "reason": "Choose based on the booking portal, eligible card network, instant discount and EMI conditions."
+      "reason": "My Zone lists 7% off flights up to ₹2,000 and 18% off hotels up to ₹4,000. Compare final checkout pricing and HDFC Swiggy's limited-period Cleartrip coupons."
     }
   ],
-  "offers": [],
-  "notice": "Starter dashboard: merchant recommendations are indicative. Add offers only after checking issuer terms, eligibility, caps and validity."
+  "offers": [
+    {
+      "card": "SBI Cashback",
+      "category": "Shopping",
+      "title": "5% cashback on eligible online spends",
+      "terms": "5% cashback on eligible online spends and 1% on eligible offline POS spends. Effective 1 Apr 2026, maximum per statement cycle is ₹2,000 online plus ₹2,000 offline (₹4,000 total). Excludes fuel, rent, wallet, utility, insurance, education, jewellery, railways, merchant EMI/Flexipay EMI, digital gaming, tolls, government transactions and other excluded MCCs.",
+      "valid_until": "Ongoing — issuer terms apply",
+      "checked_at": "2026-11-22",
+      "source": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/cashback-revised.pdf",
+      "status": "verified",
+      "kind": "Core benefit"
+    },
+    {
+      "card": "SBI PhonePe SELECT BLACK",
+      "category": "UPI",
+      "title": "10 reward points per ₹100 on eligible PhonePe spends",
+      "terms": "Earn 10 Reward Points/₹100 on eligible PhonePe spends, 5 points/₹100 on eligible online spends and 1 point/₹100 on other spends. SBI states 1 point = ₹1. Includes 4 domestic lounge visits/year (maximum 1/quarter), Priority Pass membership for first two years, ₹5,000 Yatra voucher at ₹5 lakh annual spends, annual fee reversal at ₹3 lakh previous membership-year spends, and 1% fuel surcharge waiver on transactions ₹500–₹4,000 (max ₹250/statement cycle). Welcome gift: PhonePe e-gift card worth ₹1,500, subject to welcome T&Cs.",
+      "valid_until": "Ongoing — issuer terms apply",
+      "checked_at": "2026-11-22",
+      "source": "https://www.sbicard.com/en/personal/credit-cards/phonepe-sbi-card-select-black.html",
+      "status": "verified",
+      "kind": "Core benefit"
+    },
+    {
+      "card": "Axis My Zone",
+      "category": "Food",
+      "title": "Flat ₹120 off Swiggy food delivery",
+      "terms": "Axis product page lists flat ₹120 off on Swiggy food delivery. Confirm minimum order, applicable promo flow and frequency in current card T&Cs before paying.",
+      "valid_until": "Ongoing — issuer terms apply",
+      "checked_at": "2026-11-22",
+      "source": "https://www.axis.bank.in/cards/credit-card/axis-bank-my-zone-credit-card",
+      "status": "verified",
+      "kind": "Core benefit"
+    },
+    {
+      "card": "Axis My Zone",
+      "category": "Movies",
+      "title": "Buy 1 Get 1 movie ticket via District",
+      "terms": "100% discount on the second movie ticket via District, subject to card variant terms. From 1 Nov 2026, eligibility requires ₹25,000 spends in the preceding 3 months; newly issued cards receive an initial eligibility waiver as per issuer T&Cs.",
+      "valid_until": "Ongoing — issuer terms apply",
+      "checked_at": "2026-11-22",
+      "source": "https://www.axis.bank.in/docs/default-source/default-document-library/terms-and-conditions-for-myzone-cc-bogo-free-district-offer.pdf",
+      "status": "verified",
+      "kind": "Core benefit"
+    },
+    {
+      "card": "Axis My Zone",
+      "category": "Travel",
+      "title": "Cleartrip flight and hotel discounts",
+      "terms": "7% off flights up to ₹2,000 and 18% off hotels up to ₹4,000. Axis product page lists each benefit once per use per month; check current booking T&Cs.",
+      "valid_until": "Ongoing — issuer terms apply",
+      "checked_at": "2026-11-22",
+      "source": "https://www.axis.bank.in/cards/credit-card/axis-bank-my-zone-credit-card",
+      "status": "verified",
+      "kind": "Core benefit"
+    },
+    {
+      "card": "Axis My Zone",
+      "category": "Movies",
+      "title": "Complimentary SonyLIV Premium annual subscription",
+      "terms": "Axis lists a complimentary SonyLIV Premium annual subscription valued at ₹1,499. Product page specifies first-year benefit; activation and eligibility conditions apply.",
+      "valid_until": "Ongoing — issuer terms apply",
+      "checked_at": "2026-11-22",
+      "source": "https://www.axis.bank.in/cards/credit-card/axis-bank-my-zone-credit-card",
+      "status": "verified",
+      "kind": "Core benefit"
+    },
+    {
+      "card": "Axis Neo RuPay",
+      "category": "Food",
+      "title": "Flat ₹120 off Zomato",
+      "terms": "Axis lists flat ₹120 off Zomato, twice a month. Minimum order, promo code, maximum discount and eligibility are governed by live offer T&Cs.",
+      "valid_until": "Ongoing — issuer terms apply",
+      "checked_at": "2026-11-22",
+      "source": "https://www.axis.bank.in/cards/credit-card/rupay-credit-card",
+      "status": "verified",
+      "kind": "Core benefit"
+    },
+    {
+      "card": "Axis Neo RuPay",
+      "category": "Shopping",
+      "title": "10% off Blinkit",
+      "terms": "Axis lists 10% off Blinkit on Neo. Confirm current minimum spend, maximum discount, eligible items and monthly usage limit in checkout T&Cs.",
+      "valid_until": "Ongoing — issuer terms apply",
+      "checked_at": "2026-11-22",
+      "source": "https://www.axis.bank.in/cards/credit-card/rupay-credit-card",
+      "status": "verified",
+      "kind": "Core benefit"
+    },
+    {
+      "card": "Axis Neo RuPay",
+      "category": "Movies",
+      "title": "10% off BookMyShow",
+      "terms": "Axis lists 10% off BookMyShow on Neo. Confirm current minimum transaction, cap and usage limit in checkout T&Cs.",
+      "valid_until": "Ongoing — issuer terms apply",
+      "checked_at": "2026-11-22",
+      "source": "https://www.axis.bank.in/cards/credit-card/rupay-credit-card",
+      "status": "verified",
+      "kind": "Core benefit"
+    },
+    {
+      "card": "Axis Privilege Amex",
+      "category": "Food",
+      "title": "₹150 off Zomato on Saturdays",
+      "terms": "Spend above ₹600; ₹150 maximum discount; once per month per user; Saturdays only. Promo code AMEXNETWORK. Applicable to Axis Privilege on American Express network.",
+      "valid_until": "2026-12-30",
+      "checked_at": "2026-11-22",
+      "source": "https://www.axis.bank.in/docs/default-source/default-document-library/axis-privilege-amex-offers-and-tnc.pdf",
+      "status": "verified",
+      "kind": "Limited-time promotion"
+    },
+    {
+      "card": "Axis Privilege Amex",
+      "category": "Shopping",
+      "title": "₹150 off Blinkit on Saturdays",
+      "terms": "Transactions above ₹1,500; ₹150 instant discount; once per user per month; Saturdays only. Promo code AMEXWEEKEND. Excludes milk, tobacco, cigarettes and baby needs.",
+      "valid_until": "2026-12-30",
+      "checked_at": "2026-11-22",
+      "source": "https://www.axis.bank.in/docs/default-source/default-document-library/axis-privilege-amex-offers-and-tnc.pdf",
+      "status": "verified",
+      "kind": "Limited-time promotion"
+    },
+    {
+      "card": "Axis Privilege Amex",
+      "category": "Food",
+      "title": "₹150 off Swiggy food orders",
+      "terms": "Spend ₹600 and get ₹150 instant discount; Saturdays only, once during the offer period. Promo code AMEX150. Confirm eligible cart and payment terms at checkout.",
+      "valid_until": "2026-12-30",
+      "checked_at": "2026-11-22",
+      "source": "https://www.axis.bank.in/docs/default-source/default-document-library/axis-privilege-amex-offers-and-tnc.pdf",
+      "status": "verified",
+      "kind": "Limited-time promotion"
+    },
+    {
+      "card": "ICICI Amazon Pay",
+      "category": "Shopping",
+      "title": "Up to 5% Amazon cashback",
+      "terms": "Amazon Prime members earn 5% on eligible Amazon.in purchases; non-Prime members earn 3% on eligible products. Digital products and gift cards earn 2%. Earn 2% on eligible Amazon Pay partner merchants and 1% on other eligible spends. No joining/annual fee; rewards credited as Amazon Pay balance. Fuel, rent, tax, education, utilities, EMI and other specified categories are excluded from rewards; 1% fuel surcharge waiver applies separately.",
+      "valid_until": "Ongoing — issuer terms apply",
+      "checked_at": "2026-11-22",
+      "source": "https://www.icici.bank.in/personal-banking/cards/credit-card/amazon-pay-credit-card/faqs",
+      "status": "verified",
+      "kind": "Core benefit"
+    },
+    {
+      "card": "RBL Play BookMyShow",
+      "category": "Movies",
+      "title": "Up to ₹500 monthly BookMyShow benefit",
+      "terms": "Spend ₹5,000 in a billing month to unlock two movie/stream/play/event/sports/activity tickets up to ₹250 each. Both tickets must be booked in one transaction. Offer valid for one billing period; specified MCCs do not count toward qualifying spend.",
+      "valid_until": "Ongoing — issuer terms apply",
+      "checked_at": "2026-11-22",
+      "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/rbl-bank-play-credit-card?tabName=welcome-benefits",
+      "status": "verified",
+      "kind": "Core benefit"
+    },
+    {
+      "card": "RBL Play BookMyShow",
+      "category": "Movies",
+      "title": "Up to ₹100 food and beverage discount",
+      "terms": "Book movie tickets on BookMyShow using RBL Play and get up to ₹100 off eligible food and beverage items, subject to platform and card terms.",
+      "valid_until": "Ongoing — issuer terms apply",
+      "checked_at": "2026-11-22",
+      "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/rbl-bank-play-credit-card?tabName=welcome-benefits",
+      "status": "verified",
+      "kind": "Core benefit"
+    },
+    {
+      "card": "RBL Play BookMyShow",
+      "category": "Fuel",
+      "title": "Fuel surcharge waiver up to ₹100/month",
+      "terms": "Fuel transactions between ₹500 and ₹4,000 qualify for a surcharge waiver up to ₹100 per month, subject to issuer terms.",
+      "valid_until": "Ongoing — issuer terms apply",
+      "checked_at": "2026-11-22",
+      "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/rbl-bank-play-credit-card?tabName=welcome-benefits",
+      "status": "verified",
+      "kind": "Core benefit"
+    },
+    {
+      "card": "BOB HPCL RuPay",
+      "category": "Fuel",
+      "title": "Up to 5% savings at HPCL",
+      "terms": "HPCL Energie advertises 24 Reward Points/₹150 (4% value at ₹0.25/point) plus 1% fuel surcharge waiver at eligible HPCL outlets, LPG and HP Pay App. Accelerated fuel reward capped at 1,000 points/statement; surcharge waiver capped at ₹100/statement. Confirm exact RuPay variant's schedule of benefits.",
+      "valid_until": "Ongoing — issuer terms apply",
+      "checked_at": "2026-11-22",
+      "source": "https://www.bobcard.co.in/credit-card-types/fuel-credit-card-hpcl-energie",
+      "status": "verified",
+      "kind": "Core benefit"
+    },
+    {
+      "card": "BOB HPCL RuPay",
+      "category": "Travel",
+      "title": "Domestic airport lounge access",
+      "terms": "Four complimentary domestic airport lounge visits/year (one per quarter), subject to ₹20,000 spend in the preceding calendar quarter and participating lounge rules. Confirm variant-specific eligibility.",
+      "valid_until": "Ongoing — issuer terms apply",
+      "checked_at": "2026-11-22",
+      "source": "https://www.bobcard.co.in/credit-card-types/fuel-credit-card-hpcl-energie",
+      "status": "verified",
+      "kind": "Core benefit"
+    },
+    {
+      "card": "HDFC Millennia",
+      "category": "Shopping",
+      "title": "5% cashback on 10 partner merchants",
+      "terms": "5% cashback on Amazon, BookMyShow, Cult.fit, Flipkart, Myntra, Sony LIV, Swiggy, Tata CLiQ, Uber and Zomato; capped at 1,000 CashPoints per cycle. 1% on other eligible spends, also capped at 1,000 CashPoints per cycle. Fuel, EMI, wallet and rent are among excluded categories. Statement cashback redemption requires at least 500 points and is capped at 3,000 points per calendar month.",
+      "valid_until": "Ongoing — issuer terms apply",
+      "checked_at": "2026-11-22",
+      "source": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/millennia-credit-card/Terms-and-Conditions-Millennia-Credit-Card.pdf",
+      "status": "verified",
+      "kind": "Core benefit"
+    },
+    {
+      "card": "HDFC Millennia",
+      "category": "Travel",
+      "title": "₹1,000 voucher or one domestic lounge access",
+      "terms": "On eligible spends of ₹1,00,000 or more in a calendar quarter, choose a ₹1,000 brand voucher or one domestic airport lounge access, subject to current milestone terms. This is a choice, not both benefits.",
+      "valid_until": "Ongoing — issuer terms apply",
+      "checked_at": "2026-11-22",
+      "source": "https://www.hdfc.bank.in/credit-cards/millennia-credit-card",
+      "status": "verified",
+      "kind": "Core benefit"
+    },
+    {
+      "card": "HDFC Swiggy",
+      "category": "Food",
+      "title": "10% cashback on eligible Swiggy app spends",
+      "terms": "10% cashback on eligible Swiggy Food Delivery, Instamart and Dineout transactions; capped at ₹1,500 per billing cycle. Swiggy Money Wallet, Liquor, Minis and other excluded categories do not qualify.",
+      "valid_until": "Ongoing — issuer terms apply",
+      "checked_at": "2026-11-22",
+      "source": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/swiggy-hdfc-bank-credit-card/pdf/terms-and-conditions-swiggy-hdfc-bank-credit-card-26052026.pdf",
+      "status": "verified",
+      "kind": "Core benefit"
+    },
+    {
+      "card": "HDFC Swiggy",
+      "category": "Shopping",
+      "title": "5% cashback on eligible online shopping",
+      "terms": "5% cashback on eligible online shopping categories/merchants as defined in HDFC terms; capped at ₹1,500 per billing cycle. Category/MCC eligibility applies; not every online transaction qualifies.",
+      "valid_until": "Ongoing — issuer terms apply",
+      "checked_at": "2026-11-22",
+      "source": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/swiggy-hdfc-bank-credit-card/pdf/terms-and-conditions-swiggy-hdfc-bank-credit-card-26052026.pdf",
+      "status": "verified",
+      "kind": "Core benefit"
+    },
+    {
+      "card": "HDFC Swiggy",
+      "category": "Everyday",
+      "title": "1% cashback on other eligible spends",
+      "terms": "1% cashback on other eligible spends, capped at ₹500 per billing cycle. Fuel, rent, jewellery, government spends, gift cards, EMI and wallet transactions are among exclusions.",
+      "valid_until": "Ongoing — issuer terms apply",
+      "checked_at": "2026-11-22",
+      "source": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/swiggy-hdfc-bank-credit-card/pdf/terms-and-conditions-swiggy-hdfc-bank-credit-card-26052026.pdf",
+      "status": "verified",
+      "kind": "Core benefit"
+    },
+    {
+      "card": "HDFC Swiggy",
+      "category": "Travel",
+      "title": "Cleartrip instant discounts",
+      "terms": "Limited-period offer in HDFC terms: 20% instant discount on Cleartrip hotel bookings and 6.35% instant discount on flight bookings. Apply coupon CTSWHDFC; confirm active validity and checkout eligibility before booking.",
+      "valid_until": "Limited period — verify at checkout",
+      "checked_at": "2026-11-22",
+      "source": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/swiggy-hdfc-bank-credit-card/pdf/terms-and-conditions-swiggy-hdfc-bank-credit-card-26052026.pdf",
+      "status": "verified",
+      "kind": "Limited-time promotion"
+    },
+    {
+      "card": "YES Bank Kiwi NEON",
+      "category": "UPI",
+      "title": "2% cashback on eligible UPI scan-and-pay",
+      "terms": "Kiwi Neon earns 2% cashback on eligible scan-and-pay transactions through Kiwi. Online UPI payments earn 0.5%. Kiwis are the reward currency; 1 Kiwi = ₹0.25. Monthly cashback cap is generally 1% of the linked credit limit; eligible MCC exclusions apply.",
+      "valid_until": "Ongoing — issuer terms apply",
+      "checked_at": "2026-11-22",
+      "source": "https://gokiwi.in/helpcenter/rewards/6a2/",
+      "status": "verified",
+      "kind": "Core benefit"
+    },
+    {
+      "card": "YES Bank Kiwi NEON",
+      "category": "UPI",
+      "title": "Up to 5% milestone cashback",
+      "terms": "Neon milestone rewards: 3% at ₹50,000 eligible annual Kiwi spends, 4% at ₹1,00,000 and 5% at ₹1,50,000. Milestone reward is calculated net of cashback already earned under the membership for that year; milestone rewards are over and above monthly cashback cap, subject to full policy.",
+      "valid_until": "Ongoing — issuer terms apply",
+      "checked_at": "2026-11-22",
+      "source": "https://gokiwi.in/neon/neon2/",
+      "status": "verified",
+      "kind": "Core benefit"
+    },
+    {
+      "card": "YES Bank Kiwi NEON",
+      "category": "Travel",
+      "title": "Three complimentary airport lounge visits/year",
+      "terms": "Kiwi Neon annual membership includes three lounge visits per year, linked to the ₹50,000, ₹1,00,000 and ₹1,50,000 spend milestones (one at each milestone), subject to lounge availability and programme rules.",
+      "valid_until": "Ongoing — issuer terms apply",
+      "checked_at": "2026-11-22",
+      "source": "https://gokiwi.in/helpcenter/rewards/6d1/",
+      "status": "verified",
+      "kind": "Core benefit"
+    },
+    {
+      "card": "YES Bank Kiwi NEON",
+      "category": "UPI",
+      "title": "Neon annual membership fee",
+      "terms": "Kiwi Neon annual membership fee is ₹999 plus applicable taxes. Membership runs for one year from joining and is renewable; check your in-app membership status and renewal date.",
+      "valid_until": "Ongoing — annual membership",
+      "checked_at": "2026-11-22",
+      "source": "https://gokiwi.in/neon/neon2/",
+      "status": "verified",
+      "kind": "Core benefit"
+    }
+  ],
+  "notice": "Issuer-published card benefits and selected promotions checked on 22 Nov 2026. Ongoing benefits remain subject to card variant, exclusions, transaction category and caps. Limited-period promotions require successful validation at checkout. Source links are provided on each entry."
 }
