@@ -1,0 +1,190 @@
+{
+  "updated_at": "2026-11-22",
+  "cards": [
+    {
+      "bank": "SBI",
+      "name": "SBI Cashback",
+      "variant": "Visa",
+      "focus": "Online shopping"
+    },
+    {
+      "bank": "SBI",
+      "name": "SBI PhonePe",
+      "variant": "SELECT BLACK",
+      "focus": "PhonePe & rewards"
+    },
+    {
+      "bank": "Axis Bank",
+      "name": "Axis My Zone",
+      "variant": "Standard",
+      "focus": "Lifestyle & dining"
+    },
+    {
+      "bank": "Axis Bank",
+      "name": "Axis Neo",
+      "variant": "RuPay",
+      "focus": "UPI & shopping"
+    },
+    {
+      "bank": "Axis Bank",
+      "name": "Axis Privilege",
+      "variant": "Amex network",
+      "focus": "Travel & lifestyle"
+    },
+    {
+      "bank": "ICICI Bank",
+      "name": "Amazon Pay ICICI",
+      "variant": "Visa",
+      "focus": "Amazon shopping"
+    },
+    {
+      "bank": "RBL Bank",
+      "name": "Play BookMyShow",
+      "variant": "Standard",
+      "focus": "Movies & entertainment"
+    },
+    {
+      "bank": "Bank of Baroda",
+      "name": "BOB HPCL",
+      "variant": "RuPay",
+      "focus": "HPCL fuel"
+    },
+    {
+      "bank": "HDFC Bank",
+      "name": "Millennia",
+      "variant": "Standard",
+      "focus": "Online cashback"
+    },
+    {
+      "bank": "HDFC Bank",
+      "name": "Swiggy",
+      "variant": "Standard",
+      "focus": "Food & online shopping"
+    },
+    {
+      "bank": "YES BANK",
+      "name": "Kiwi",
+      "variant": "NEON",
+      "focus": "UPI rewards"
+    }
+  ],
+  "recommendations": [
+    {
+      "merchant": "Amazon",
+      "category": "Shopping",
+      "first": "Amazon Pay ICICI",
+      "alternatives": [
+        "SBI Cashback",
+        "HDFC Millennia"
+      ],
+      "reason": "Compare Prime/non-Prime Amazon cashback with eligible online cashback and remaining caps."
+    },
+    {
+      "merchant": "Flipkart",
+      "category": "Shopping",
+      "first": "SBI Cashback",
+      "alternatives": [
+        "HDFC Millennia"
+      ],
+      "reason": "Compare eligible online cashback against Millennia's accelerated merchant list and remaining cap."
+    },
+    {
+      "merchant": "Swiggy",
+      "category": "Food",
+      "first": "HDFC Swiggy",
+      "alternatives": [
+        "Axis My Zone",
+        "HDFC Millennia"
+      ],
+      "reason": "Check current Swiggy-card cashback, billing-cycle cap and any targeted instant discount."
+    },
+    {
+      "merchant": "Zomato",
+      "category": "Food",
+      "first": "Axis Neo RuPay",
+      "alternatives": [
+        "HDFC Swiggy",
+        "HDFC Millennia"
+      ],
+      "reason": "Check active Axis Neo coupon eligibility against regular cashback alternatives."
+    },
+    {
+      "merchant": "Blinkit",
+      "category": "Shopping",
+      "first": "HDFC Swiggy",
+      "alternatives": [
+        "Axis Privilege Amex"
+      ],
+      "reason": "Check eligible online-spend cashback and any targeted bank promotion."
+    },
+    {
+      "merchant": "BookMyShow",
+      "category": "Movies",
+      "first": "RBL Play BookMyShow",
+      "alternatives": [
+        "Axis My Zone",
+        "Axis Neo RuPay",
+        "HDFC Millennia"
+      ],
+      "reason": "Check monthly spend milestones, ticket caps and active District/BookMyShow offers."
+    },
+    {
+      "merchant": "UPI QR payments",
+      "category": "UPI",
+      "first": "YES Bank Kiwi NEON",
+      "alternatives": [
+        "SBI PhonePe SELECT BLACK",
+        "Axis Neo RuPay"
+      ],
+      "reason": "Check eligible scan-and-pay transaction type, Kiwi milestone status and card reward caps."
+    },
+    {
+      "merchant": "PhonePe",
+      "category": "UPI",
+      "first": "SBI PhonePe SELECT BLACK",
+      "alternatives": [
+        "YES Bank Kiwi NEON"
+      ],
+      "reason": "Check PhonePe SELECT BLACK category eligibility and revised reward caps."
+    },
+    {
+      "merchant": "HPCL fuel",
+      "category": "Fuel",
+      "first": "BOB HPCL RuPay",
+      "alternatives": [],
+      "reason": "Check HPCL outlet eligibility, fuel reward cap, surcharge waiver and RuPay variant terms."
+    },
+    {
+      "merchant": "Other online shopping",
+      "category": "Shopping",
+      "first": "SBI Cashback",
+      "alternatives": [
+        "HDFC Millennia",
+        "SBI PhonePe SELECT BLACK"
+      ],
+      "reason": "Check exclusions, online cashback cap and whether the merchant is on Millennia's accelerated list."
+    },
+    {
+      "merchant": "Other offline purchases",
+      "category": "Everyday",
+      "first": "SBI Cashback",
+      "alternatives": [
+        "SBI PhonePe SELECT BLACK"
+      ],
+      "reason": "Compare eligible offline cashback and reward earn rates after exclusions."
+    },
+    {
+      "merchant": "Flights & hotels",
+      "category": "Travel",
+      "first": "Compare current bank offers",
+      "alternatives": [
+        "Axis My Zone",
+        "Axis Privilege Amex",
+        "SBI PhonePe SELECT BLACK"
+      ],
+      "reason": "Choose based on the booking portal, eligible card network, instant discount and EMI conditions."
+    }
+  ],
+  "offers": [],
+  "notice": "Starter dashboard: merchant recommendations are indicative. Add offers only after checking issuer terms, eligibility, caps and validity."
+}
