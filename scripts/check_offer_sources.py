@@ -81,7 +81,9 @@ for url in urls:
         current["state"] = "reachable"
         current_sources[url] = current
         old_hash = old.get("sha256")
-        if old_hash and old_hash != current["sha256"]:
+        if old.get("state") == "unreachable":
+            changes.append((url, "Source is reachable again; review its current terms"))
+        elif old_hash and old_hash != current["sha256"]:
             changes.append((url, "Page/document content changed"))
     except Exception as exc:
         message = f"{type(exc).__name__}: {exc}"[:300]
@@ -91,7 +93,8 @@ for url in urls:
             "error": message,
             "previous_sha256": old.get("sha256"),
         }
-        changes.append((url, f"Source could not be checked: {message}"))
+        if old.get("state") != "unreachable" or old.get("error") != message:
+            changes.append((url, f"Source could not be checked: {message}"))
 
 snapshot = {"checked_at": now, "source_count": len(urls), "sources": current_sources}
 with open(CHECKS_PATH, "w", encoding="utf-8") as handle:
