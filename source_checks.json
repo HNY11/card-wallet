@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-23T09:18:41+00:00",
+  "checked_at": "2026-11-24T11:12:35+00:00",
   "source_count": 15,
   "sources": {
     "https://gokiwi.in/helpcenter/rewards/6a2/": {
@@ -8,7 +8,7 @@
       "fingerprint_type": "html-visible-text",
       "sha256": "550b0d40eda9ec447b620b10aff57626583e53b7a6632a6fe5efd8b95c81f89c",
       "final_url": "https://gokiwi.in/helpcenter/rewards/6a2/",
-      "checked_at": "2026-11-23T09:18:41+00:00",
+      "checked_at": "2026-11-24T11:12:35+00:00",
       "state": "reachable"
     },
     "https://gokiwi.in/helpcenter/rewards/6d1/": {
@@ -17,7 +17,7 @@
       "fingerprint_type": "html-visible-text",
       "sha256": "5a441820a4a700699948e2740c164be17dc097e8bf4fd6d956de28f96e81678c",
       "final_url": "https://gokiwi.in/helpcenter/rewards/6d1/",
-      "checked_at": "2026-11-23T09:18:41+00:00",
+      "checked_at": "2026-11-24T11:12:35+00:00",
       "state": "reachable"
     },
     "https://gokiwi.in/neon/neon2/": {
@@ -26,25 +26,25 @@
       "fingerprint_type": "html-visible-text",
       "sha256": "cf34a27aa588fa39d60318586607d0a774b9bf65734f2f9881143c5417517018",
       "final_url": "https://gokiwi.in/neon/neon2/",
-      "checked_at": "2026-11-23T09:18:41+00:00",
+      "checked_at": "2026-11-24T11:12:35+00:00",
       "state": "reachable"
     },
     "https://www.axis.bank.in/cards/credit-card/axis-bank-my-zone-credit-card": {
       "http_status": 200,
       "content_type": "text/html; charset=utf-8",
       "fingerprint_type": "html-visible-text",
-      "sha256": "d47bbb1a53850f865b3f03af5823844c3a0bc46ab1ce02748c19ed7a7762f096",
+      "sha256": "7cc0725b61701e80710abbb742135feef76ff6d25c0b5e7afafd1fc2798e48b4",
       "final_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-my-zone-credit-card",
-      "checked_at": "2026-11-23T09:18:41+00:00",
+      "checked_at": "2026-11-24T11:12:35+00:00",
       "state": "reachable"
     },
     "https://www.axis.bank.in/cards/credit-card/rupay-credit-card": {
       "http_status": 200,
       "content_type": "text/html; charset=utf-8",
       "fingerprint_type": "html-visible-text",
-      "sha256": "12cabcd22ef1fa7d76ae8b91417ca5e2e0015bfada875d082ab67bd9274efe9e",
+      "sha256": "20b8aef16ab832cd13e4f91a31cfe900a7269c5769da666cce5ff617439d3aef",
       "final_url": "https://www.axis.bank.in/cards/credit-card/rupay-credit-card",
-      "checked_at": "2026-11-23T09:18:41+00:00",
+      "checked_at": "2026-11-24T11:12:35+00:00",
       "state": "reachable"
     },
     "https://www.axis.bank.in/docs/default-source/default-document-library/axis-privilege-amex-offers-and-tnc.pdf": {
@@ -53,7 +53,7 @@
       "fingerprint_type": "document-bytes",
       "sha256": "2e4fdf0a8cfe58da91cf6ae940bc222c48e1818b9a4f042293539c37891f2db8",
       "final_url": "https://www.axis.bank.in/docs/default-source/default-document-library/axis-privilege-amex-offers-and-tnc.pdf",
-      "checked_at": "2026-11-23T09:18:41+00:00",
+      "checked_at": "2026-11-24T11:12:35+00:00",
       "state": "reachable"
     },
     "https://www.axis.bank.in/docs/default-source/default-document-library/terms-and-conditions-for-myzone-cc-bogo-free-district-offer.pdf": {
@@ -62,11 +62,11 @@
       "fingerprint_type": "document-bytes",
       "sha256": "7f4c5edc448b7c9a51919f555b4b342407a21a9ada89035be9fb74ea626bacae",
       "final_url": "https://www.axis.bank.in/docs/default-source/default-document-library/terms-and-conditions-for-myzone-cc-bogo-free-district-offer.pdf",
-      "checked_at": "2026-11-23T09:18:41+00:00",
+      "checked_at": "2026-11-24T11:12:35+00:00",
       "state": "reachable"
     },
     "https://www.bobcard.co.in/credit-card-types/fuel-credit-card-hpcl-energie": {
-      "checked_at": "2026-11-23T09:18:41+00:00",
+      "checked_at": "2026-11-24T11:12:35+00:00",
       "state": "unreachable",
       "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1147)>",
       "previous_sha256": null
@@ -77,7 +77,7 @@
       "fingerprint_type": "document-bytes",
       "sha256": "135e15693d4d9185369377c68a227475baf5af153a570db1d84921b5382256d8",
       "final_url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/millennia-credit-card/Terms-and-Conditions-Millennia-Credit-Card.pdf",
-      "checked_at": "2026-11-23T09:18:41+00:00",
+      "checked_at": "2026-11-24T11:12:35+00:00",
       "state": "reachable"
     },
     "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/swiggy-hdfc-bank-credit-card/pdf/terms-and-conditions-swiggy-hdfc-bank-credit-card-26052026.pdf": {
@@ -86,7 +86,7 @@
       "fingerprint_type": "document-bytes",
       "sha256": "53a44fd16e1d9fe3902a2a22115025371c2147dacef13e516ef586aba0dcf1a5",
       "final_url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/swiggy-hdfc-bank-credit-card/pdf/terms-and-conditions-swiggy-hdfc-bank-credit-card-26052026.pdf",
-      "checked_at": "2026-11-23T09:18:41+00:00",
+      "checked_at": "2026-11-24T11:12:35+00:00",
       "state": "reachable"
     },
     "https://www.hdfc.bank.in/credit-cards/millennia-credit-card": {
@@ -95,7 +95,7 @@
       "fingerprint_type": "html-visible-text",
       "sha256": "d6912fcd44711e5f3afa87307daa7b266414bf82c51188e09ac19ee9ccd57cf2",
       "final_url": "https://www.hdfc.bank.in/credit-cards/millennia-credit-card",
-      "checked_at": "2026-11-23T09:18:41+00:00",
+      "checked_at": "2026-11-24T11:12:35+00:00",
       "state": "reachable"
     },
     "https://www.icici.bank.in/personal-banking/cards/credit-card/amazon-pay-credit-card/faqs": {
@@ -104,7 +104,7 @@
       "fingerprint_type": "html-visible-text",
       "sha256": "e092700b4616f20f8c5b28dfb4416647793e329333f314e93e59d43d5f08c504",
       "final_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/amazon-pay-credit-card/faqs",
-      "checked_at": "2026-11-23T09:18:41+00:00",
+      "checked_at": "2026-11-24T11:12:35+00:00",
       "state": "reachable"
     },
     "https://www.rbl.bank.in/personal-banking/cards/credit-cards/rbl-bank-play-credit-card?tabName=welcome-benefits": {
@@ -113,7 +113,7 @@
       "fingerprint_type": "html-visible-text",
       "sha256": "84f609488819668db6907de500e6d280886dd8362d5d2b784765c32a3e955f73",
       "final_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/rbl-bank-play-credit-card?tabName=welcome-benefits",
-      "checked_at": "2026-11-23T09:18:41+00:00",
+      "checked_at": "2026-11-24T11:12:35+00:00",
       "state": "reachable"
     },
     "https://www.sbicard.com/en/personal/credit-cards/phonepe-sbi-card-select-black.html": {
@@ -122,7 +122,7 @@
       "fingerprint_type": "html-visible-text",
       "sha256": "76c7ce7d02df822b1e295b0016a77ca3c70eb329171b5b421d85f401cdac457f",
       "final_url": "https://www.sbicard.com/en/personal/credit-cards/phonepe-sbi-card-select-black.html",
-      "checked_at": "2026-11-23T09:18:41+00:00",
+      "checked_at": "2026-11-24T11:12:35+00:00",
       "state": "reachable"
     },
     "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/cashback-revised.pdf": {
@@ -131,7 +131,7 @@
       "fingerprint_type": "document-bytes",
       "sha256": "de77386615216fd0c712d8fef974745da0418d1c68f329cd2940211598b4c0cf",
       "final_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/cashback-revised.pdf",
-      "checked_at": "2026-11-23T09:18:41+00:00",
+      "checked_at": "2026-11-24T11:12:35+00:00",
       "state": "reachable"
     }
   }
